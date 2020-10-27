@@ -79,7 +79,7 @@ $(".btn").click(function () {
     let loser = new Audio("./sounds/wrong.mp3");
     loser.play();
     $("#level-title").html(
-      "loser cunt, press any key to reset, Level " + level
+      "loser, press any key to reset, Level " + level
     );
     restarter = true;
   }
